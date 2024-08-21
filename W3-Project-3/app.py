@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template_string
+from flask import Flask, request, jsonify, render_template
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
@@ -22,63 +22,51 @@ def preprocess_image(img_path):
     img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
     return img_array
 
-# HTML template for file upload and prediction result
-HTML_TEMPLATE = """
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Image Classification</title>
-</head>
-<body>
+# Route to handle file upload and prediction
+@app.route('/', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        # Check if the post request has the file part
+        if 'file' not in request.files:
+            return jsonify({'error': 'No file part'})
+        file = request.files['file']
+        if file.filename == '':
+            return jsonify({'error': 'No selected file'})
+        if file:
+            try:
+                # Save the file to disk
+                filepath = os.path.join('/content/', file.filename)
+                file.save(filepath)
+
+                # Preprocess the image
+                img_array = preprocess_image(filepath)
+
+                # Make prediction
+                predictions = custom_model.predict(img_array)
+                predicted_class_index = np.argmax(predictions)
+                predicted_class = class_labels[predicted_class_index]
+                predicted_confidence = (predictions[0][predicted_class_index]) * 100
+
+                # Remove the file after processing
+                os.remove(filepath)
+
+                return jsonify({
+                    'predicted_class': predicted_class,
+                    'predicted_confidence': f'{predicted_confidence:.2f}'
+                })
+            except Exception as e:
+                return jsonify({'error': str(e)})
+    return '''
+    <!doctype html>
+    <title>Upload an Image</title>
     <h1>Upload an image for CIFAR-10 classification</h1>
     <form method=post enctype=multipart/form-data>
       <input type=file name=file>
       <input type=submit value=Upload>
     </form>
-    {% if predicted_class %}
-    <h2>Prediction Result</h2>
-    <p>Predicted Class: {{ predicted_class }}</p>
-    <p>Confidence: {{ predicted_confidence }}%</p>
-    <img src="{{ url_for('static', filename=image_path) }}" alt="Uploaded Image" />
-    {% endif %}
-</body>
-</html>
-"""
-
-# Route to handle file upload and prediction
-@app.route('/', methods=['GET', 'POST'])
-def upload_file():
-    if request.method == 'POST':
-        if 'file' not in request.files:
-            return 'No file part'
-        file = request.files['file']
-        if file.filename == '':
-            return 'No selected file'
-        if file:
-            filepath = os.path.join('/content/', file.filename)
-            file.save(filepath)
-
-            # Preprocess the image
-            img_array = preprocess_image(filepath)
-
-            # Make prediction
-            predictions = custom_model.predict(img_array)
-            predicted_class_index = np.argmax(predictions)
-            predicted_class = class_labels[predicted_class_index]
-            predicted_confidence = (predictions[0][predicted_class_index]) * 100
-
-            # Render the HTML template with prediction results
-            return render_template_string(HTML_TEMPLATE,
-                                           predicted_class=predicted_class,
-                                           predicted_confidence=f'{predicted_confidence:.2f}',
-                                           image_path=file.filename)
-    return render_template_string(HTML_TEMPLATE)
-
-# Run the app
-# if __name__ == '__main__':
-#     app.run(host='0.0.0.0', port='5000')
+    '''
 
 # Run the app
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8501)
+   app.run(debug=False, port=8501)  # Explicitly specify the port
+
