@@ -60,7 +60,7 @@ The Image Classification Web Application is designed to allow users to upload im
           python app.py
        ```
 
-7. **Usage**
+## **Usage**
    
     1. **Open the Web Application:**
     Open your web browser and navigate to http://127.0.0.1:5000 (or the URL provided in the output).
@@ -71,14 +71,14 @@ The Image Classification Web Application is designed to allow users to upload im
     4. **View Classification Results:**
     The application will display the predicted category and confidence score for the uploaded image.
 
-9. **Deployed Application Snapshots**
+## **Deployed Application Snapshots**
    
   - Main interface after launching.
   
   - Example of a prediction result.
 
 
-8. **Contributing**
+## **Contributing**
    
 Contributions are welcome! To contribute to this project:
 
@@ -94,25 +94,28 @@ Contributions are welcome! To contribute to this project:
            ```
     
   2. **Make Changes and Commit:**
-         ```bash
+     
+     ```bash
           git add .
           git commit -m "Add feature or fix bug"
-         ```
-  3. **Push to Your Fork:**
-          ```bash
+     ```
+  4. **Push to Your Fork:**
+     
+      ```bash
           git push origin feature-branch
-          ```
-  4. **Submit a Pull Request:**
+       ```
+      
+  5. **Submit a Pull Request:**
        
-          Go to the original repository and submit a pull request from your branch.
+     Go to the original repository and submit a pull request from your branch.
 
 
-10. **Acknowledgments**
+## **Acknowledgments**
     
 Thanks to the developers of TensorFlow, PyTorch, OpenCV, and Flask/Django for their powerful tools and libraries.
 Inspired by various online tutorials and resources on image classification and web development.
 
-**Team Members**
+## **Team Members**
 
 - Moneka: [GitHub](https://github.com/mmoneka11) | [LinkedIn](https://www.linkedin.com/in/mmoneka11)
 - Hassan: [GitHub](https://github.com/HassanSharif7) | [LinkedIn](https://www.linkedin.com/in/hassan-sharif-301672257)
