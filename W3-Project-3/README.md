@@ -53,22 +53,26 @@ The Image Classification Web Application is designed to allow users to upload im
            ```
     
 4. **Install the Required Dependencies:**
-    
-5. **Run the Application:**
    
-       ```bash
+      ```bash
+      pip install -r requirements.txt
+      ```
+    
+6. **Run the Application:**
+   
+    ```bash
           python app.py
-       ```
+    ```
 
 ## **Usage**
    
-    1. **Open the Web Application:**
+   1. **Open the Web Application:**
     Open your web browser and navigate to http://127.0.0.1:5000 (or the URL provided in the output).
    
-    2. **Upload an Image:**
+   2. **Upload an Image:**
     Use the provided upload button to select and upload an image file.
 
-    4. **View Classification Results:**
+   3. **View Classification Results:**
     The application will display the predicted category and confidence score for the uploaded image.
 
 ## **Deployed Application Snapshots**
