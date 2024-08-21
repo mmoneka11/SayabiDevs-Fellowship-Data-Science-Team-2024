@@ -78,10 +78,14 @@ The Image Classification Web Application is designed to allow users to upload im
 ## **Deployed Application Snapshots**
    
   - Main interface after launching.
+
+        ![download](https://github.com/user-attachments/assets/42833df9-6e1a-4ec6-8a97-8f49bd1a16d2)
   
   - Example of a prediction result.
+    
+        ![download (1)](https://github.com/user-attachments/assets/4d477c6e-73a0-4f87-8d7f-421c3a439bd8)
 
-
+    
 ## **Contributing**
    
 Contributions are welcome! To contribute to this project:
