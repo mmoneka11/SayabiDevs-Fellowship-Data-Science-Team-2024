@@ -123,7 +123,7 @@ Inspired by various online tutorials and resources on image classification and w
 
 - Moneka: [GitHub](https://github.com/mmoneka11) | [LinkedIn](https://www.linkedin.com/in/mmoneka11)
 - Hassan: [GitHub](https://github.com/HassanSharif7) | [LinkedIn](https://www.linkedin.com/in/hassan-sharif-301672257)
-- Shaeel: [Github](https://github.com/shaeel24)
+- Shaeel: [Github](https://github.com/shaeel24) | [LinkedIn](https://pk.linkedin.com/in/shaeel-khalil-060aa2241)
 - Fahad: [Github](https://github.com/21k-3103-Fahad/)
 - Malaika: [Github](https://github.com/malayeka971)
 
