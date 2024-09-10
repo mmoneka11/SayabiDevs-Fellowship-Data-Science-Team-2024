@@ -25,12 +25,6 @@ Highlighting key findings or insights obtained from the sentiment analysis.
   - Segmented customers based on factors like spending habits, number of children, income, and marital status.
   - Provided insights on targeting high-value segments for better marketing strategies.
 
-## Contributions:
-- **Zain**: Data collection, and preprocessing
-- **Hassan**: Feature engineering, and model development.
-- **Moneka**: Data visualization and insights extraction. Final documentation, report, and presentation creation.
-- **Shaeel**: Research on clustering algorithms and PowerBI visualizations.
-
 ## Conclusion:
 As we conclude this project, we acknowledge the dedication and effort put forth by each team member. We have thoroughly reviewed the notebook to ensure accuracy and completeness in our findings.
 The segmentation model successfully identified customer groups with distinct characteristics, offering valuable insights for the marketing team. The findings can help in developing personalized marketing campaigns, improving customer engagement, and enhancing overall business strategy.
@@ -43,6 +37,12 @@ Future improvements could include exploring additional steps:
 
 ## Acknowledgment:
 This notebook represents the culmination of our team's collaborative effort on our first project, focused on Customer Segmentation Analysis. Each team member contributed to different components of the project, leveraging their expertise and skills to achieve our objectives.
+
+## Contributions:
+- **Zain**: Data collection, and preprocessing
+- **Hassan**: Feature engineering, and model development.
+- **Moneka**: Data visualization and insights extraction. Final documentation, report, and presentation creation.
+- **Shaeel**: Research on clustering algorithms and PowerBI visualizations.
 
 ## Request for Feedback:
 We invite reviewers to provide constructive feedback on our approach, analysis, and presentation.
