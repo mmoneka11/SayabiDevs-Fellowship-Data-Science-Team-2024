@@ -114,25 +114,30 @@ To run this project locally, follow these steps:
 ## Authors' Profiles
 
 * **Moneka**:
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/mmoneka11)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/mmoneka11)
-[![Medium](https://img.shields.io/badge/Medium-Blog-blue?style=for-the-badge&logo=medium)](https://medium.com/@mmoneka11)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mmoneka11/)
-[![Twitter](https://img.shields.io/badge/Twitter-Profile-blue?style=for-the-badge&logo=twitter)](https://twitter.com/mmoneka11)
+  
+   [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/mmoneka11)
+   [![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/mmoneka11)
+   [![Medium](https://img.shields.io/badge/Medium-Blog-blue?style=for-the-badge&logo=medium)](https://medium.com/@mmoneka11)
+   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mmoneka11/)
+   [![Twitter](https://img.shields.io/badge/Twitter-Profile-blue?style=for-the-badge&logo=twitter)](https://twitter.com/mmoneka11)
 
 * **Hassan**:
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/HassanSharif7)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/hassan-sharif-301672257)
+  
+   [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/HassanSharif7)
+   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/hassan-sharif-301672257)
 
 * **Shaeel**:
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/shaeel24)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://pk.linkedin.com/in/shaeel-khalil-060aa2241)
+  
+   [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/shaeel24)
+   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://pk.linkedin.com/in/shaeel-khalil-060aa2241)
 
 * **Fahad**:
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/21k-3103-Fahad/)
+  
+   [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/21k-3103-Fahad/)
 
 * **Malaika**:
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/malayeka971)
+
+   [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/malayeka971)
 
 
 ## Acknowledgments
