@@ -41,13 +41,28 @@ This project focuses on building and deploying a machine learning model to predi
       - **Precision**: The proportion of positive identifications that were actually correct.
       - **Recall**: The proportion of actual positives that were identified correctly.
       - **F1 Score**: The harmonic mean of precision and recall, providing a single metric that balances both concerns.
-   - Evaluate the model using cross-validation and confusion matrix. Fine-tune the hyperparameters for optimal performance.
+   - Evaluated the model using cross-validation and confusion matrix. Fine-tune the hyperparameters for optimal performance.
 
 6. **Deployment**:
    - Deploy the trained model as a web service or via a cloud-based API (optional).
   
 7. **Conclusion**:
   The chosen machine learning model successfully predicts heart disease with high accuracy, showing that it can be a valuable tool for healthcare professionals to identify at-risk individuals.
+
+## Best Model
+   - The best performing model is selected based on K-Fold cross-validation accuracy and other evaluation metrics
+   - .Naive Bayes is the best model for this particular dataset due to its high accuracy, stability, and effective handling of class predictions.
+   - The Naive Bayes model achieved the highest cross-validated accuracy with 83.61% and KFold accuracy of 83.08%.
+ ### Results
+
+     The final model achieved the following results:
+      
+      - **Accuracy**: 84%
+      - **Precision**: 84%
+      - **Recall**: 84%
+      - **F1 Score**: 84%
+   - Naive Bayes achieved an accuracy of 0.84, which is the highest among all models tested. This indicates that it correctly predicted the outcome more often than any other model.The model also has a relatively low standard deviation (± 0.0448) during cross-validation, suggesting that its performance is stable across different subsets of the data. This consistency is crucial for generalization to unseen data.
+
 
 ## Installation
 
