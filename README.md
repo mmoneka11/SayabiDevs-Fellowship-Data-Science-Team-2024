@@ -1,7 +1,7 @@
 # SayabiDevs-Fellowship-Data-Science-Team-2024 📊 
 
 Welcome to the official repository for the Sayabidevs Fellowship Data Science Team! 🌟 
-As a fellow of our community, alongside a dedicated team of 3, we embark on weekly data science projects aimed at honing our skills and exploring diverse applications of data.
+As a fellow of our community, alongside a dedicated team of 3 (later changed), we embark on weekly data science projects aimed at honing our skills and exploring diverse applications of data.
 
 **About Us**
 We are a dynamic team passionate about leveraging data to drive insights and solutions. Our goal is to sharpen our skills, learn from each other, and contribute meaningfully to the field of data science.
